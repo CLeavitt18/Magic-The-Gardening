@@ -1,18 +1,9 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class BaseCard : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public bool isLengend {get { return _isLegend; } private set{}}
+    [SerializeField] private bool _isLegend;
+    public bool isPermanent {get { return _isPermanent; } private set{}}
+    [SerializeField] private bool _isPermanent;
 }
