@@ -11,6 +11,13 @@ public class Land : MonoBehaviour
 
     public void TapForMana(Player player)
     {
-        ColorType color = baseCard.color[0];
+        ColorType[] color = new ColorType[mana.Length];
+        int[] amount = new int[mana.Length];
+
+        for(int i = 0; i < mana.Length; i++)
+        {
+            color[i] = mana[i].type;
+            amount[i] = mana[i].amount;
+        }
     }
 }
