@@ -14,5 +14,6 @@ public enum ColorType
     Black,
     Red,
     White,
-    Blue
+    Blue,
+    Colorless
 }

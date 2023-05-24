@@ -6,4 +6,9 @@ public class Land : MonoBehaviour
 
     public bool isBasic {get{ return _isBasic; } private set {}}
     [SerializeField] private bool _isBasic;
+
+    public void TapForMana()
+    {
+        
+    }
 }
