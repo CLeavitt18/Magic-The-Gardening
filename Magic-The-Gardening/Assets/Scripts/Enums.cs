@@ -1,4 +1,6 @@
-public enum CardType
+using System;
+
+[Serializable] public enum CardType
 {
     Instant,
     Sorrcery,
@@ -8,7 +10,7 @@ public enum CardType
     Land
 }
 
-public enum ColorType
+[Serializable] public enum ColorType
 {
     Green,
     Black,

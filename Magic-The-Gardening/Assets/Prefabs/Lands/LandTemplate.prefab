@@ -31,7 +31,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &8089203519595576390
 MonoBehaviour:
@@ -46,6 +46,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   baseCard: {fileID: 8089203519595576391}
+  mana:
+  - amount: 1
+    type: 0
   _isBasic: 1
 --- !u!114 &8089203519595576391
 MonoBehaviour:
@@ -60,5 +63,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _cardType: 5
+  _color: 00000000
   _isLegend: 0
   _isPermanent: 1
